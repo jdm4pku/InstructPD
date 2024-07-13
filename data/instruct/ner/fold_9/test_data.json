@@ -1,0 +1,697 @@
+[
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Digital Home High Level Requirements Definition is intended as a prototype, which will allow business decisions to be made about future development of a commercial product.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The scope of the project will be limited to the management of devices which control temperature, humidity, security, and power to small appliances and lighting units, through the use of a web-ready device.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [\"a web-ready device\", \"lighting units\"], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"control temperature, humidity, security, and power to small appliances and lighting units,\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "A Master user will be designated, who shall be able to change the configuration of the system.",
+    "output": "{\"Machine Domain\": [\"the system\"], \"Physical Device\": [], \"Environment Entity\": [\"A Master user\"], \"Design Domain\": [], \"Requirements\": [\"change the configuration\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "For example, a Master User shall be able to add a user account or change the default parameter settings.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"a Master User\"], \"Design Domain\": [], \"Requirements\": [\"add a user account\", \"change the default parameter settings\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The DigitalHome system will be tested in a simulated environment.",
+    "output": "{\"Machine Domain\": [\"The DigitalHome system\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Some of them are related to issues of long-term production and marketing of a DigitalHome product.",
+    "output": "{\"Machine Domain\": [\"a DigitalHome product\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The DigitalHome System shall allow a web-ready computer, cell phone or PDA to control a home's temperature, humidity, lights, security, and the state of small appliances.",
+    "output": "{\"Machine Domain\": [\"The DigitalHome System\"], \"Physical Device\": [\"a web-ready computer\", \"cell phone\", \"PDA\"], \"Environment Entity\": [\"a home\"], \"Design Domain\": [\"small appliances\"], \"Requirements\": [\"to control a home\"], \"Shared Phenomena\": [\"temperature\", \"humidity\", \"lights\", \"security\", \"the state\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "If a humdistat device allows a user to make a manual temperature setting, the setting shall remain in effect until the end of the planned or default time period, at which time the planned or default setting will be used for the next time period.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [\"a humdistat device\"], \"Environment Entity\": [\"a user\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"a manual temperature setting\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "A DigitalHome system shall be able to manage up to fifty door and window contact sensors.",
+    "output": "{\"Machine Domain\": [\"A DigitalHome system\"], \"Physical Device\": [], \"Environment Entity\": [\"window contact sensors\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Appliance Manager shall be able to manage up to one hundred 115 volt, 10 amp power switches.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [\"power switches\"], \"Environment Entity\": [\"The Appliance Manager\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "If a user changes the state of power switch device manually, the device shall remain in that state until the end of the planned or default time period, at which time the planned or default setting will be used for the next time period.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [\"power switch device\"], \"Environment Entity\": [\"a user\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"the state\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "All system documents (Software Requirements Specification, Architectural Design Specification, Module Detailed Design, Module Source Code, and all Test Plans) shall be up-to-date, use the Homeowner document format [HO2305] and reside in the HomeOwner Document Archive at completion of the project.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The APAF data system acquires the telemetry data via NISN, processes the data into IDFS data sets, distributes the IDFS data sets to the ASPERA-3 team, provides web-based displays of the most current data for public view, stores the telemetry and IDFS data sets on a local SwRI archive, and submits the ASPERA-3 IDFS data sets to PDS for long-term archival.",
+    "output": "{\"Machine Domain\": [\"The APAF data system\"], \"Physical Device\": [\"NISN\", \"local SwRI archive\", \"public view\"], \"Environment Entity\": [\"the ASPERA-3 team\", \"PDS\"], \"Design Domain\": [\"IDFS data sets\", \"IDFS data sets\", \"the ASPERA-3 IDFS data sets\"], \"Requirements\": [\"the IDFS data sets\"], \"Shared Phenomena\": [\"the telemetry data\", \"the data\", \"current data\", \"the telemetry\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Each of the seven components described above will have an associated Software Design Document (SDD) that will define and fully describe all of the data products contained within each individual virtual instrument.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Software Design Documents of each of the seven components (see section 1.2) shall contain the detailed information of the virtual instrument data items.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"the virtual instrument data items\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"the detailed information\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The APAF system web server shall be password protected where appropriate to allow only pertinent ASPERA-3 team members access.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"ASPERA-3 team members\"], \"Design Domain\": [\"The APAF system web server\"], \"Requirements\": [], \"Shared Phenomena\": [\"password protected\", \"access\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "ASPERA-3 data shall be calibrated and validated prior to depositing in the NASA PDS.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"the NASA PDS\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"ASPERA-3 data\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "SwRI shall provide IDFS data processing algorithms to IRF.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"SwRI\", \"IRF\"], \"Design Domain\": [], \"Requirements\": [\"IDFS data processing algorithms\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Therefore, there are no safety requirements of the APAF ground data system.",
+    "output": "{\"Machine Domain\": [\"the APAF ground data system\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Although the APAF data system and associated software will be developed with the highest quality possible, there are no requirements concerned with software quality.",
+    "output": "{\"Machine Domain\": [\"the APAF data system\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "However, the APAF Operations Procedures Document will aid personnel in the operational use of the APAF system.",
+    "output": "{\"Machine Domain\": [\"the APAF system\"], \"Physical Device\": [], \"Environment Entity\": [\"personnel\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Since the members of the SwRI software team are experienced with data system and IDFS processing software development, there are no training-related requirements for developers of the APAF data system.",
+    "output": "{\"Machine Domain\": [\"APAF data system\"], \"Physical Device\": [\"the members of the SwRI software team\"], \"Environment Entity\": [], \"Design Domain\": [\"data system\", \"IDFS processing software\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The umbrella will be a web-based menu system allowing the user to choose between the systems.",
+    "output": "{\"Machine Domain\": [\"The umbrella\"], \"Physical Device\": [], \"Environment Entity\": [\"the user\"], \"Design Domain\": [], \"Requirements\": [\"to choose between the systems\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Although Alice has used computers for email and systems, Alice considers computers to be boring.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Claire finds that students have a particularly hard time learning about the concepts related to fractions.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"students\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "In addition, a component accessible over the World Wide Web will allow the series of fraction questions to be updated by an administrator of the Space Fractions system.",
+    "output": "{\"Machine Domain\": [\"the Space Fractions system\"], \"Physical Device\": [], \"Environment Entity\": [\"an administrator\"], \"Design Domain\": [], \"Requirements\": [\"the series of fraction questions to be updated\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The user will be given a problem and then must click the correct solution.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"The user\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "This gives Bobby the competition he requires and allows Alice to have a unique experience the next time through the program.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "If the input is valid, the Space Fractions system calculates the velocity adjustment by converting the fraction into a decimal value and applying it to the spaceship's current velocity.",
+    "output": "{\"Machine Domain\": [\"the Space Fractions system\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "This engaging start is designed to enhance understanding and interest in the game's educational objectives.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"to enhance understanding and interest in the game's educational objectives\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Alternatively, if the player selects the option to visit the Denominators' web page, the system facilitates this redirection, opening the web page either within the game environment or in a separate browser window, depending on the game's design and platform capabilities.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"the player\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "his scene not only showcases the player's overall score but also offers a narrative conclusion that ties directly back to the choices made during gameplay, reinforcing the impact of educational achievements within the game's context.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"the player\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The primary outputs of the ending scene include the display of the player's total score accumulated throughout the system and a tailored narrative conclusion.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"the player\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Administrators interact with the Question Updater through a user-friendly interface consisting of pulldown menus and text fields. ",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"Administrators\"], \"Design Domain\": [\"the Question Updater\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "MINISTRY OF HOME AFFAIRS GOVERNMENT OF INDIA  ",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Functional Requirements Specifications (FRS) report provides the detailed description of the functionalities required for the first version of the CCTNS.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Registration module acts as an interface between the police and citizens and it eases the approach, interaction and information exchange between police and complainants.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"police\", \"citizens\", \"police\", \"complainants\"], \"Design Domain\": [\"Registration module\"], \"Requirements\": [\"eases the approach, interaction and information exchange\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Investigation module of the CCTNS facilitates the investigation process and introduces operational efficiencies by automating most of the tasks that take place after initial entries are made during Registration.",
+    "output": "{\"Machine Domain\": [\"the CCTNS\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"facilitates the investigation process and introduces operational efficiencies\"], \"Shared Phenomena\": [\"initial entries\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Search module of the CCTNS gives police personnel the ability to execute a basic or advanced search on cases.",
+    "output": "{\"Machine Domain\": [\"The Search module of the CCTNS\"], \"Physical Device\": [], \"Environment Entity\": [\"police personnel\"], \"Design Domain\": [], \"Requirements\": [\"to execute a basic or advanced search on cases\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Using the search functionality, police personnel can search for a particular person, type of crime, modus operandi, property etc.",
+    "output": "{\"Machine Domain\": [\"the search functionality\"], \"Physical Device\": [], \"Environment Entity\": [\"police personnel\"], \"Design Domain\": [], \"Requirements\": [\"search for a particular person, type of crime, modus operandi, property etc\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The police in turn can use it to respond to citizens with very little turnaround time.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"The police\"], \"Design Domain\": [], \"Requirements\": [\"to respond to citizens\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Configuration module of the CCTNS helps keep the application configured according to the states’ requirements in addition to keeping data elements/rules up to date.",
+    "output": "{\"Machine Domain\": [\"The Configuration module of the CCTNS\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"keep the application configured\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The solution should provide detailed context-sensitive help material for all the possible actions and scenarios on all user interfaces in the application.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"all user\"], \"Design Domain\": [], \"Requirements\": [\"detailed context-sensitive\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The word “unalterable” is to mean that the audit trail data cannot be modified in any way or deleted by any user.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"any user\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"the audit trail data\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The user interfaces of the CCTNS system should comply with Standard ISO 9241.",
+    "output": "{\"Machine Domain\": [\"the CCTNS system\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "User interfaces should meet its requirements and recommendations.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Offering alternative access paths: Alternative access paths for navigating to a specific unit of content should be offered to support different navigation strategies.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"a specific unit of content\"], \"Design Domain\": [], \"Requirements\": [\"to support different navigation strategies\"], \"Shared Phenomena\": [\"Alternative access paths\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "They also require additional user actions for closing unwanted windows.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"unwanted windows\"], \"Design Domain\": [], \"Requirements\": [\"for closing unwanted windows\"], \"Shared Phenomena\": [\"user actions\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "This is particularly important for frequently accessed pages or pages that are important for user navigation and exploration, such as the home page.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Supporting text skimming: Fast skimming of text should be supported by the provision of clear links, bulleted lists, highlighted keywords, logical headings, and short phrases and sentences.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Distinguishing navigation links from controls: Navigation links should be clearly distinguishable from controls activating some action.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "While white space is an important means of visually organizing the different content elements on a page, if the distance between the blocks of information displayed becomes too large, rapid skimming of the page can be impeded.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Short pages are generally more appropriate for homepages, navigation pages, or overview pages that need to be read quickly.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Overall layout schemes apply to all pages and are preferable when all pages have a similar structure.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The proposed functional architecture is modeled around centralized deployment to facilitate ease of maintenance and leverage advancement in open standards and web technologies.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The 3 C’s (Core-Configuration-Customization) forms the guiding principle for the architecture.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The functional architecture of the CCTNS solution is given in the figure below.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The functional architecture is composed of 4 major components based on SOA principles.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The CCTNS system should ensure secure transmission of data over the network and utilize SSL and 2-way digital signatures.",
+    "output": "{\"Machine Domain\": [\"The CCTNS system\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"ensure secure transmission\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The CCTNS system should ensure high standards of security and access control through do not allow hard delete and perform only soft tagging the row for deletion.",
+    "output": "{\"Machine Domain\": [\"The CCTNS system\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"ensure high standards of security and access control\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The primary goal of this document is to provide a complete and accurate list of requirements for the VLA Expansion Project Correlator Monitor and Control System.",
+    "output": "{\"Machine Domain\": [\"the VLA Expansion Project Correlator Monitor and Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The ability to attempt recovery from failure or hot-swapped hardware devices will be built into this system.",
+    "output": "{\"Machine Domain\": [\"this system\"], \"Physical Device\": [\"hot-swapped hardware devices\"], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"recovery from failure\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Watchdog processes and the Master Correlator Control Computer will likewise monitor Correlator Power Control Computer health.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [\"Correlator Power Control Computer\", \"the Master Correlator Control Computer\"], \"Environment Entity\": [\"Watchdog processes\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"Correlator Power Control Computer health\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Due to the more hardware specific connections and controls of the Correlator Power Control Computer, actions taken by external system upon hard failures are TBD.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [\"the Correlator Power Control Computer,\"], \"Environment Entity\": [], \"Design Domain\": [\"external system\"], \"Requirements\": [], \"Shared Phenomena\": [\"actions\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Each computer system in the Correlator Monitor and Control System shall have a hardware based watchdog timer configured to reboot the EVLA Correlator Monitor and Control System in the case of a system hang.",
+    "output": "{\"Machine Domain\": [\"the Correlator Monitor and Control System\"], \"Physical Device\": [\"Each computer system\", \"watchdog timer\"], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"reboot the EVLA Correlator Monitor and Control System\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The operating system/module combination shall be capable of supporting the real-time requirements of the correlator hardware, hardware monitor/control/diagnostics with support for standalone test bench operation with simulated control data generation, and the ability to access and upgrade correlator hardware The Master Correlator Control Computer shall be a high availability type general- purpose computer capable of supporting multiple Ethernet interfaces, COTS operating systems, and support server/host services for the CMIB operating system.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "All messages passed between Correlator Monitor and Control System system layers shall have both UTC and wall clock time stamp information appropriate for the message type.",
+    "output": "{\"Machine Domain\": [\"Correlator Monitor and Control System system layers\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"messages\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Software shall be provided that allows an authorized user full access to all messaging, monitor, and control traffic.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"an authorized user\"], \"Design Domain\": [\"Software\"], \"Requirements\": [\"access to all messaging,\", \"monitor, and control traffic\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "I/O, communications, and processing hardware shall be easily expandable, reconfigurable, augmentable and replaceable to meet increasing data traffic and processing demands imposed by VLA Expansion Project science, Correlator changes, and availability of new hardware.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "This could be done via a username and associated password scheme that would authenticate and authorize the user access to the EVLA Correlator Monitor and Control System and, if applicable, grant the user access to restricted or controlled parts of the EVLA Correlator Monitor and Control System.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Systems operations should be given unrestricted access to all aspects of the EVLA Correlator Monitor and Control System and should have the authority to grant and revoke privileges on a per-user basis.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Complete and comprehensible hardware systems specifications and configuration information shall be readily available.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The SSS further specifies the methods to be used to ensure that each requirement has been met.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System will also provide connectivity to specifically identified Command, Control, Communications, Computers, and ",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [\"Computers\"], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System will provide a common Human-Computer Interface (HCI) for tactical airborne platforms to simplify user operations, training, and facilitate seamless integration into the Services’ joint C4I infrastructure across all levels of interaction.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [\"user\", \"Services’ joint C4I infrastructure\"], \"Design Domain\": [\"Human-Computer Interface\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The software will provide a high resolution computer generated graphical user interface that enables a UAV operator trained on one system to control different types of UAVs or UAV payloads with a minimum of additional training.",
+    "output": "{\"Machine Domain\": [\"software\"], \"Physical Device\": [\"high resolution computer\"], \"Environment Entity\": [\"UAV operator\", \"UAVs\", \"UAV payloads\"], \"Design Domain\": [\"graphical user interface\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System will use the computing hardware specified by the service specific procurement contracts.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"computing hardware\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The individual armed services will identify Tactical Control System computing hardware, the desired level of Tactical Control System functionality, the battlefield C4I connectivity, and the particular type of air vehicle and payloads to be operated depending upon the deployment concept and area of operations.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\", \"Tactical Control System\"], \"Physical Device\": [\"air vehicle\"], \"Environment Entity\": [\"individual armed services\"], \"Design Domain\": [\"computing hardware\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System integration with C4I systems will be accomplished through development of interfaces that permit information exchange between the Tactical Control System and specified C4I systems.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\", \"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"C4I systems\", \"C4I systems\"], \"Requirements\": [], \"Shared Phenomena\": [\"information exchange\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System will be connected with Joint Deployable Intelligence Support System (JDISS)",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"Joint Deployable Intelligence Support System\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System will be connected with Joint Service Imagery Processing System - Navy (JSIPS-N)",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"Joint Service Imagery Processing System\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System will export and disseminate UAV imagery products, tactical communication messages, as well as mission plans and target coordinates.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"UAV imagery products\", \"tactical communication messages\", \"mission plans\", \"target coordinates\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System will also receive, process, and display tasking orders, and operational information from Service specific mission planning systems.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"Service specific mission planning systems\"], \"Requirements\": [], \"Shared Phenomena\": [\"tasking orders\", \"operational information\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall meet the applicable capability and characteristic criteria established by the Operational Requirements Document (ORD) CAF 003-90-I-A for the RQ-1A Predator Medium Altitude Endurance Unmanned Aerial Vehicle/System (MAE UAV) and the Close Range – Tactical Unmanned Aerial Vehicle (CR-TUAV).",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [\"Medium Altitude Endurance Unmanned Aerial Vehicle/System\", \"Tactical Unmanned Aerial Vehicle\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall inform the operator if the operator attempts to execute a function prohibited as a result of the determined level of interaction.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [\"operator\", \"operator\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The operator shall have the capability to command the system to the Shutdown State from all modes under the Operations State.",
+    "output": "{\"Machine Domain\": [\"the system\"], \"Physical Device\": [], \"Environment Entity\": [\"operator\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"the Shutdown State\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "In the Maintenance Operations Mode, if computer workstation Human Computer Interface (HCI) is required, the Tactical Control System shall conduct data link terminal maintenance.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [\"Human Computer Interface\"], \"Environment Entity\": [\"computer workstation\"], \"Design Domain\": [], \"Requirements\": [\"conduct data link terminal maintenance\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "In the Maintenance Operations Mode, if computer workstation Human Computer Interface (HCI) is required, the Tactical Control System shall perform software debug and monitoring.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [\"Human Computer Interface\"], \"Environment Entity\": [\"computer workstation\"], \"Design Domain\": [], \"Requirements\": [\"perform software debug and monitoring\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Shutdown of the Tactical Control System shall include storage as well as deletion, as specified by the operator, of mission data files, shutdown of appropriate functions, shutdown of HCIs, and proper termination of all active interfaces.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [\"operator\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"mission data files\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall have the functionality to allow the operator to generate a UAV mission plan.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [\"operator\"], \"Design Domain\": [], \"Requirements\": [\"to generate a UAV mission plan\"], \"Shared Phenomena\": [\"UAV mission plan\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall have the functionality to receive and process UAV mission plans from service specific mission planning systems.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"service specific mission planning systems\"], \"Requirements\": [], \"Shared Phenomena\": [\"UAV mission plans\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall be capable of storing a minimum of 500 mission plans under unique names to allow for later retrieval.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"allow for later retrieval\"], \"Shared Phenomena\": [\"mission plans\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall allow the operator to set the LOL delay timer(s) during mission planning.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [\"operator\"], \"Design Domain\": [], \"Requirements\": [\"to set the LOL delay timer(s) during mission planning\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall provide the capability to enter waypoint data in alphanumeric format.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"waypoint data\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "AV specific components used to perform ground based closed loop command and control functions for Tactical Control System shall be initialized upon operator selection of a specific AV.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [\"AV\"], \"Environment Entity\": [\"operator\"], \"Design Domain\": [\"AV specific components\"], \"Requirements\": [\"initialized upon operator selection of a specific AV\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "As and objective, the Tactical Control System shall be interoperable with the Integrity Beacon Landing System (IBLS), and the Common Automated Recovery System (CARS), both used by Outrider.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [\"Outrider\"], \"Environment Entity\": [], \"Design Domain\": [\"Integrity Beacon Landing System\", \"IBLS\", \"Common Automated Recovery System\", \"CARS\"], \"Requirements\": [\"be interoperable with the Integrity Beacon Landing System (IBLS), and the Common Automated Recovery System (CARS), both used by Outrider\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall allow the operator to initiate the emergency recovery feature of the AV, if the AV has an emergency recovery feature.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [\"AV\", \"AV\"], \"Environment Entity\": [\"operator\"], \"Design Domain\": [], \"Requirements\": [\"allow the operator to initiate the emergency recovery feature of the AV\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Tactical Control System shall provide the capability to monitor the status of all AV subsystems reporting status.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [\"AV\"], \"Environment Entity\": [], \"Design Domain\": [\"AV subsystems\"], \"Requirements\": [\"monitor the status of all AV subsystems reporting status\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall provide a graphical user interface display for the purpose of controlling the payload.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [\"user\"], \"Design Domain\": [\"graphical user interface\"], \"Requirements\": [\"controlling the payload\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall be capable of automatically controlling the transmitter and receiver modes of the selected data terminal.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [\"data terminal\"], \"Design Domain\": [], \"Requirements\": [\"automatically controlling the transmitter and receiver modes of the selected data terminal\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Annotation includes operator generated comments as well as graphics which are superimposed on the imagery.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"operator\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"Annotation\", \"comments\", \"graphics\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Overlays consist of information obtained from external sources that is selected by the operator for presentation with the imagery.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [\"Overlays\", \"operator\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"information\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall have the capability to select and deselect several types of cross hairs (or other similar ICON) to identify a selected point on a target.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"to select and deselect several types of cross hairs (or other similar ICON) to identify a selected point on a target\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "RS170A video and digital imagery shall be routed to Tactical Control System functions and displayed upon operator request.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System functions\"], \"Physical Device\": [\"RS170A video\"], \"Environment Entity\": [\"digital imagery\", \"operator request\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall provide the capability to capture frozen-frames of imagery and store these frozen images for further review and processing.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"to capture frozen-frames of imagery\", \"store these frozen images for further review and processing\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System will have the functionality to determine target coordinates, and estimate target coordinate accuracy.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"to determine target coordinates\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall have the capability to use cable to deliver live video imagery in multiple locations.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [\"live video\"], \"Environment Entity\": [\"live video imagery\", \"in multiple locations\"], \"Design Domain\": [], \"Requirements\": [\"to use cable to deliver live video imagery\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall send and receive tactical communication messages. ",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"send and receive tactical communication messages\"], \"Shared Phenomena\": [\"tactical communication messages\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System will have the functionality to process received C4I messages and to prepare C4I messages for transmission.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"to process received C4I messages\", \"to prepare C4I messages for transmission\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall have the capability to review incoming annotated as well as un-annotated digital imagery.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"to review incoming annotated as well as un-annotated digital imagery\"], \"Shared Phenomena\": [\"annotated as well as un-annotated digital imagery\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall be capable of monitoring the status of all incoming and outgoing tactical communication messages.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"monitoring the status of all incoming and outgoing tactical communication messages\"], \"Shared Phenomena\": [\"the status of all incoming and outgoing tactical communication messages\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Tactical Control System shall be capable of executing workstation and peripheral equipment maintenance software and displaying appropriate status results.",
+    "output": "{\"Machine Domain\": [\"Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"workstation and peripheral equipment maintenance software\"], \"Requirements\": [\"executing workstation and peripheral equipment maintenance software\", \"displaying appropriate status results\"], \"Shared Phenomena\": [\"appropriate status results\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall restrict operator access to this capability via password protection.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [\"operator\"], \"Design Domain\": [], \"Requirements\": [\"restrict operator access to this capability via password protection\"], \"Shared Phenomena\": [\"access to this capability via password protection\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "As a minimum, the Tactical Control System will restrict Operator access to this capability via password protection.",
+    "output": "{\"Machine Domain\": [\"the Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [\"Operator\"], \"Design Domain\": [], \"Requirements\": [\"restrict Operator access to this capability\"], \"Shared Phenomena\": [\"password protection\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall provide the system functionality necessary to interface with the data terminal.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"the data terminal\"], \"Requirements\": [\"to interface with the data terminal\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall provide the necessary hardware and software functionality to allow the Tactical Control System to integrate with JSIPS-N.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\", \"the Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"JSIPS-N\"], \"Requirements\": [\"to allow the Tactical Control System to integrate with JSIPS-N\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall provide the necessary hardware and software functionality to allow the Tactical Control System to integrate with GCS/ACS IPF.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\", \"the Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"GCS/ACS IPF\"], \"Requirements\": [\"to allow the Tactical Control System to integrate with GCS/ACS IPF\"], \"Shared Phenomena\": [\"integrate with GCS/ACS IPF\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall have the functionality to transfer digital data as well as digital imagery to and from external data storage systems.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"external data storage systems\"], \"Requirements\": [\"to transfer digital data as well as digital imagery\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall have an interface to a source of current navigation information.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"have an interface\"], \"Shared Phenomena\": [\"a source of current navigation information\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "This interface shall allow for addition of future AVs and will provide the generic architecture to ensure interoperability.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [\"future AVs\"], \"Environment Entity\": [], \"Design Domain\": [\"This interface\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The uplink and downlink information passed between the Tactical Control System and the AV shall be in accordance with the associated AV documentation.",
+    "output": "{\"Machine Domain\": [\"the Tactical Control System\"], \"Physical Device\": [\"the AV\", \"AV\"], \"Environment Entity\": [], \"Design Domain\": [\"the associated AV documentation\"], \"Requirements\": [], \"Shared Phenomena\": [\"The uplink and downlink information\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System design shall consider all safety requirements affecting design and performance except nuclear safety.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System design\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"consider all safety requirements affecting design\", \"performance except nuclear safety\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall comply with para 5.3 of MIL-STD 882C, “System Safety Program Requirements”, dated 19 January 1993 w/ Notice 1 dated 19 January 1996.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"comply with para 5.3 of MIL-STD 882C\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall be designed such that no single software error results in an unsafe command to be transmitted to the air vehicle.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [\"the air vehicle\"], \"Environment Entity\": [], \"Design Domain\": [\"an unsafe command\"], \"Requirements\": [\"designed such that no single software error results in an unsafe command to be transmitted to the air vehicle\"], \"Shared Phenomena\": [\"no single software error results\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall be approved for operation at the same level as the systems with which it interfaces.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"the same level as the systems\"], \"Requirements\": [\"approved for operation\"], \"Shared Phenomena\": [\"it interfaces\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "This section not applicable, therefore tailored out.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Training software shall be alterable without affecting the configuration of the operational software.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"the operational software\", \"Training software\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "All Tactical Control System operator inputs shall be error checked such that any erroneous operator entry will not cause current processing to terminate.",
+    "output": "{\"Machine Domain\": [\"All Tactical Control System operator inputs\"], \"Physical Device\": [], \"Environment Entity\": [\"any erroneous operator entry\"], \"Design Domain\": [], \"Requirements\": [\"error checked\"], \"Shared Phenomena\": [\"cause current processing to terminate\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The operational tasks to be performed concurrently by the operator during normal operation will be determined by appropriate task analysis and function allocation.",
+    "output": "{\"Machine Domain\": [\"The operational tasks\"], \"Physical Device\": [], \"Environment Entity\": [\"the operator\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"appropriate task analysis\", \"function allocation\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System HCI shall provide for visual Warnings, Cautions, and Advisories to be displayed at or near the center of the field of view, i.e., within a 30o cone, of all monitors in a Tactical Control System system.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System HCI\", \"a Tactical Control System system\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"provide for visual Warnings, Cautions, and Advisories to be displayed at or near the center of the field of view\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Tactical Control System shall have an objective capability to be integrated and operated from ships.",
+    "output": "{\"Machine Domain\": [\"The Tactical Control System\"], \"Physical Device\": [\"ships\"], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [\"to be integrated and operated from ships\"], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "This Software Requirements Specification (SRS) provides the requirements for the Center-to-Center (C2C) Communications Network that is based on a Texas Department of Transportation (TxDOT) C2C project.",
+    "output": "{\"Machine Domain\": [\"the Center-to-Center (C2C) Communications Network\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"a Texas Department of Transportation (TxDOT) C2C project\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Center-to-Center project mnemonic uniquely identifies the Center-to-Center project to distinguish its requirements from the requirements of other ITS systems.",
+    "output": "{\"Machine Domain\": [\"the Center-to-Center project\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"other ITS systems\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Requirement Numbers are a combination of target Advanced Traffic Management System (ATMS) and sequential within a given functional area.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"Advanced Traffic Management System\"], \"Requirements\": [], \"Shared Phenomena\": []}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Center shall support the following status information about each Park and Ride Lot, including network identifier, park and ride lot identifier, park and ride lot name, location, status and capacity.",
+    "output": "{\"Machine Domain\": [\"The Center\"], \"Physical Device\": [], \"Environment Entity\": [\"Park and Ride Lot\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"status information\", \"network identifier\", \"park and ride lot identifier\", \"park and ride lot name\", \"location\", \"status\", \"capacity\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Data Collector shall be designed to support the storage of TMDD data elements and message set information.",
+    "output": "{\"Machine Domain\": [], \"Physical Device\": [\"The Data Collector\"], \"Environment Entity\": [], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"TMDD data elements\", \"message set information\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "The Incident GUI shall allow the user to enter incident or lane closure information without the use of an Center.",
+    "output": "{\"Machine Domain\": [\"an Center\"], \"Physical Device\": [], \"Environment Entity\": [\"the user\"], \"Design Domain\": [\"The Incident GUI\"], \"Requirements\": [], \"Shared Phenomena\": [\"incident or lane closure information\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "Once an Center is selected, the user shall be able to select a CCTV from a list and provide the following information.",
+    "output": "{\"Machine Domain\": [\"an Center\"], \"Physical Device\": [], \"Environment Entity\": [\"the user\", \"a CCTV\"], \"Design Domain\": [], \"Requirements\": [], \"Shared Phenomena\": [\"the following information\"]}"
+  },
+  {
+    "instruction": "You are an expert specialising in entity extraction. Please extract the entities from input that match the schema definition and return an empty list for non-existent entity types. \nPlease answer in the format of a JSON string. \nschema: ['Machine Domain', 'Physical Device', 'Environment Entity', 'Design Domain', 'Requirements', 'Shared Phenomena']\"\n",
+    "input": "In this mode the Center-to-Center receives data from all connected systems, including the Incident GUI, and combines the data into a single data store (database).",
+    "output": "{\"Machine Domain\": [\"the Center-to-Center\"], \"Physical Device\": [], \"Environment Entity\": [], \"Design Domain\": [\"the Incident GUI\", \"a single data store (database)\"], \"Requirements\": [], \"Shared Phenomena\": [\"data\", \"the data\"]}"
+  }
+]
